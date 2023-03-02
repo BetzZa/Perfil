@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Loteria</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/loteriaping.png" type="image/x-icon">
+     
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+ 
+   <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-4">   
+        </div>
+
+        <div class="col-md-4">
+         <img id="demo" src="img/loteria.png" alt="Imagen responsive" width="100px"/>
+        </div>
+
+        <div class="col-md-4">
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-md-4">
+         <img name="carta" src="img/2.png" alt="1" width="100px"/>
+        </div>
+
+        <div class="col-md-4">
+         <img name="carta" src="img/3.png" alt="2" width="100px"/>
+        </div>
+
+        <div class="col-md-4">
+         <img name="carta" src="img/4.png" alt="3" width="100px"/>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-md-4">
+         <img name="carta" src="img/5.png" alt="4" width="100px"/>
+        </div>
+
+        <div class="col-md-4">
+         <img name="carta" src="img/6.png" alt="5" width="100px"/>
+        </div>
+
+        <div class="col-md-4">
+         <img name="carta" src="img/7.png" alt="6" width="100px"/>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="col-md-4">
+         <img name="carta" src="img/8.png" alt="7" width="100px"/>
+        </div>
+
+        <div class="col-md-4">
+         <img name="carta" src="img/9.png" alt="8" width="100px"/>
+        </div>
+
+        <div class="col-md-4">
+         <img name="carta" src="img/10.png" alt="9" width="100px"/>
+        </div>
+
+      </div>
+
+      <button id="btn-reiniciar" type="button" class="btn btn-default btn-lg">
+          <span class="glyphicon" aria-hidden="true">Reiniciar</span>
+          </button>
+
+   </div>
+   <dialog id="dialog">
+    <h1>Has perdido!</h1>
+   </dialog>
+      
+   <dialog id="dialog2">
+    <h1>Ganaste!</h1>
+   </dialog>
+     <!--jQuery -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/loteria.js"></script>
+  </body>
+</html>
