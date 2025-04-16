@@ -251,3 +251,17 @@ text-decoration:none;
 .social_bookmarks .iconrssmail:hover{background-position:center -57px; background-color: #FFDE00;}
 .social_bookmarks li:hover a{background: transparent url(http:lh4.googleusercontent.com/-XNviZ_JqvyU/U4vDMDFAX8I/AAAAAAAALLk/E4VIJr1onlo/s57/icon-social-reflect.png) no-repeat;
 }
+.u-section-4 h3,
+.u-section-4 p {
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+.u-section-4 .u-list-item {
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  margin: 1rem auto;
+  max-width: 600px;
+  background-color: #f9f9f9;
+}
